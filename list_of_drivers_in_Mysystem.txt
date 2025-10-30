@@ -1,0 +1,75 @@
+H/W path            Device          Class          Description
+==============================================================
+                                    system         ASUS TUF Gaming A15 FA506ICB_FA506ICB
+/0                                  bus            FA506ICB
+/0/0                                memory         64KiB BIOS
+/0/a                                memory         16GiB System Memory
+/0/a/0                              memory         8GiB SODIMM DDR4 Synchronous Unbuffered (Unregistered) 3200 MHz (0.3 ns)
+/0/a/1                              memory         8GiB SODIMM DDR4 Synchronous Unbuffered (Unregistered) 3200 MHz (0.3 ns)
+/0/c                                memory         512KiB L1 cache
+/0/d                                memory         4MiB L2 cache
+/0/e                                memory         8MiB L3 cache
+/0/f                                processor      AMD Ryzen 7 4800H with Radeon Graphics
+/0/100                              bridge         Renoir/Cezanne Root Complex
+/0/100/0.2                          generic        Renoir/Cezanne IOMMU
+/0/100/1.1                          bridge         Renoir PCIe GPP Bridge
+/0/100/1.1/0        /dev/fb0        display        GA107M [GeForce RTX 3050 Mobile]
+/0/100/1.1/0.1      card0           multimedia     NVIDIA Corporation
+/0/100/1.1/0.1/0    input12         input          HDA NVidia HDMI/DP,pcm=3
+/0/100/1.1/0.1/1    input13         input          HDA NVidia HDMI/DP,pcm=7
+/0/100/1.1/0.1/2    input14         input          HDA NVidia HDMI/DP,pcm=8
+/0/100/1.1/0.1/3    input15         input          HDA NVidia HDMI/DP,pcm=9
+/0/100/2.1                          bridge         Renoir/Cezanne PCIe GPP Bridge
+/0/100/2.1/0        enp2s0          network        RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+/0/100/2.2                          bridge         Renoir/Cezanne PCIe GPP Bridge
+/0/100/2.2/0        wlp3s0          network        MT7921 802.11ax PCI Express Wireless Network Adapter
+/0/100/2.4                          bridge         Renoir/Cezanne PCIe GPP Bridge
+/0/100/2.4/0        /dev/nvme0      storage        SAMSUNG MZVLQ512HBLU-00B00
+/0/100/2.4/0/0      hwmon2          disk           NVMe disk
+/0/100/2.4/0/2      /dev/ng0n1      disk           NVMe disk
+/0/100/2.4/0/1      /dev/nvme0n1    disk           512GB NVMe disk
+/0/100/2.4/0/1/1                    volume         299MiB Windows FAT volume
+/0/100/2.4/0/1/2    /dev/nvme0n1p2  volume         476GiB EFI partition
+/0/100/8.1                          bridge         Renoir Internal PCIe GPP Bridge to Bus
+/0/100/8.1/0        /dev/fb0        display        Renoir
+/0/100/8.1/0.1      card1           multimedia     Renoir Radeon High Definition Audio Controller
+/0/100/8.1/0.1/0    input16         input          HD-Audio Generic HDMI/DP,pcm=3
+/0/100/8.1/0.2                      generic        Family 17h (Models 10h-1fh) Platform Security Processor
+/0/100/8.1/0.3                      bus            Renoir/Cezanne USB 3.1
+/0/100/8.1/0.3/0    usb1            bus            xHCI Host Controller
+/0/100/8.1/0.3/0/4                  multimedia     USB2.0 HD UVC WebCam
+/0/100/8.1/0.3/1    usb2            bus            xHCI Host Controller
+/0/100/8.1/0.4                      bus            Renoir/Cezanne USB 3.1
+/0/100/8.1/0.4/0    usb3            bus            xHCI Host Controller
+/0/100/8.1/0.4/0/3                  communication  Wireless_Device
+/0/100/8.1/0.4/1    usb4            bus            xHCI Host Controller
+/0/100/8.1/0.5                      multimedia     ACP/ACP3X/ACP6x Audio Coprocessor
+/0/100/8.1/0.6      card2           multimedia     Family 17h/19h HD Audio Controller
+/0/100/8.1/0.6/0    input17         input          HD-Audio Generic Headphone
+/0/100/14                           bus            FCH SMBus Controller
+/0/100/14.3                         bridge         FCH LPC Bridge
+/0/100/14.3/0                       system         PnP device PNP0c01
+/0/100/14.3/1                       system         PnP device PNP0b00
+/0/100/14.3/2                       input          PnP device PNP0303
+/0/100/14.3/3                       system         PnP device PNP0c02
+/0/101                              bridge         Renoir PCIe Dummy Host Bridge
+/0/102                              bridge         Renoir PCIe Dummy Host Bridge
+/0/103                              bridge         Renoir PCIe Dummy Host Bridge
+/0/104                              bridge         Renoir Device 24: Function 0
+/0/105                              bridge         Renoir Device 24: Function 1
+/0/106                              bridge         Renoir Device 24: Function 2
+/0/107                              bridge         Renoir Device 24: Function 3
+/0/108                              bridge         Renoir Device 24: Function 4
+/0/109                              bridge         Renoir Device 24: Function 5
+/0/10a                              bridge         Renoir Device 24: Function 6
+/0/10b                              bridge         Renoir Device 24: Function 7
+/1                  input0          input          AT Translated Set 2 keyboard
+/2                  input1          input          Power Button
+/3                  input10         input          PC Speaker
+/4                  input11         input          Asus WMI hotkeys
+/5                  input2          input          Sleep Button
+/6                  input3          input          Lid Switch
+/7                  input4          input          Video Bus
+/8                  input7          input          ELAN1203:00 04F3:307A Mouse
+/9                  input8          input          ELAN1203:00 04F3:307A Touchpad
+/a                  input9          input          Asus Wireless Radio Control
